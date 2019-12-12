@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int a,b,n,s,i;
+cout<<"N= "; cin>>n;
+cout<<"A= "; cin>>a;
+cout<<"B= "; cin>>b;
+int *mas=new int[n];
+mas[0]=a; 
+mas[1]=b; 
+s=a;
+cout<<mas[0]<<" "<<ends;
+cout<<mas[1]<<" "<<ends;
+for (i=2;i<n;i++){s=s+mas[i-1]; mas[i]=s; cout<<mas[i]<<" "<<ends;}
+return 0;
+}
